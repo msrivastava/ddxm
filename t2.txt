@@ -1,0 +1,11 @@
+0 # initial state
+[4] # terminal state
+(0,1,'c',RewardNearAgent())
+(0,2,'b',RewardNearObject())
+(0,4,'g',RewardDone())
+(1,3,'b&f',RewardHoldingObject())
+(2,3,'c&f',RewardHoldingObject())
+(3,4,'g',RewardDone())
+(1,0,'!c',RewardDefault())
+(2,0,'!b',RewardDefault())
+(3,0,'!f',RewardDefault())
